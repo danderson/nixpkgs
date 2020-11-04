@@ -140,7 +140,6 @@ let
           rm -rf vendor
           ln -s ${go-modules} vendor
       fi
-
       runHook postConfigure
     '';
 
